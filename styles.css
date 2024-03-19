@@ -1,15 +1,16 @@
 /* styles.css */
 #body {
     flex-grow: 1;
-    width: 1920;
 }
-
 .header {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
     color: #E5E7EB;
 }
 
 .menu {
+    width: 1000px;
     display: flex;
 }
 
@@ -23,32 +24,71 @@
 }
 
 .ThisWebsiteIsAwesome {
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
     background-color: #1F2937;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 48px;
     font-weight: bold;
     color: #E5E7EB;
 }
 
-.ThisWebsiteIsAwesome.p {
-    display: block;
+.text1 {
+    width: 500px;
+    justify-self: left;
+}
+
+.image {
+    width: 500px;
+    justify-self: right;
 }
 
 .SomeRandomInformation {
+    display: flex;  
+    justify-content: center;
+}
+
+.text3 {
+    text-align: center;
+    width: 1000px;
     padding: 100px;
 }
 
 .QuoteDiv {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #E5E7EB;
-    padding: 100px;
+}
+
+.QuoteText {
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    width: 600px;
+}
+
+.Thor {
+    justify-content: right;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: right;
 }
 
 .SignUp {
+    padding-left: 200px;
+    padding-right: 200px;
     padding: 100px;
 }
 
 .Footer {
+    padding-left: 200px;
+    padding-right: 200px;
     padding: 20px;
     background-color: #1F2937;
 }
