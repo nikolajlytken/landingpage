@@ -1,8 +1,30 @@
 /* styles.css */
-.body {
+.ThisWebsiteIsAwesome {
+    padding: 100px;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
 }
 
-.ThisWebsiteIsAwesome {
-    color: #1F2937;
-    margin: auto;
+.ThisWebsiteIsAwesome.p {
+    display: block;
+}
+
+.SomeRandomInformation {
+    padding: 100px;
+}
+
+.QuoteDiv {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.SignUp {
+    padding: 100px;
+}
+
+.Footer {
+    padding: 20px;
+    background-color: #1F2937;
 }
